@@ -64,3 +64,24 @@ Here, users fill out their information, and a live preview of the generated port
    ```bash
    git clone https://github.com/your-username/genfolio.git
    cd genfolio
+2. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the Flask app:
+   ```bash
+   python app.py
+5. Open in browser:
+   ```bash
+   http://127.0.0.1:5000/
+
+
+
+---
+
+Let me know if you'd like me to export this as a downloadable `README.md` file for you.
+
+
